@@ -1,0 +1,33 @@
+.navbar{
+    padding-inline: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1em;
+    background: white;
+    border-radius: 4em;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.navbar_menu ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+ a.custom_ative{
+    opacity: 1;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: .4em 2.5em;
+    border-radius: 1em;
+    cursor: pointer;
+}
